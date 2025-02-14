@@ -16,28 +16,28 @@
         rel="stylesheet">
 </head>
 
-<body class="font-[Montaga] text-[#2B1105]" ,serif>
+<body class="font-[Montaga] text-[#2B1105] bg-[#FCF9F7]" ,serif>
     <!-- header -->
 
     <header class="flex flex-col p-8 gap-16">
-        <div class="flex items-center justify-center gap-34">
-            <a class="text-gray-600 text-2xl font-[Montaga] font-normal" href="">Home</a>
-            <div class="text-gray-600 text-2xl font-[Montaga] font-normal">Our Story</div>
-            <div class="text-gray-600 text-2xl font-[Montaga] font-normal">Venue</div>
-            <div class="text-gray-600 text-2xl font-[Montaga] font-normal"><img src="./Assets/images/Logo.svg"
-                    alt="logo"></div>
-            <div class="text-gray-600 text-2xl font-[Montaga] font-normal">Itinierary</div>
-            <div class="text-gray-600 text-2xl font-[Montaga] font-normal">Registry</div>
-            <div class="text-gray-600 text-2xl font-[Montaga] font-normal">RSVP</div>
+        <div class="flex flex-row items-center justify-evenly text-[22px] font-thin text-[#2B1105]">
+            <a href="">Home</a>
+            <a href="">Our Story</a>
+            <a href="">Venue</a>
+            <a class="text-gray-600 text-2xl font-[Montaga] font-normal"><img src="./Assets/images/Logo.svg"
+                    alt="logo"></a>
+            <a href="">Itinierary</a>
+            <a href="">Registry</a>
+            <a href="">RSVP</a>
         </div>
         <div class="flex flex-col items-center justify-center gap-4">
-            <div class="text-orange-500 text-2xl font-[Montaga] font-normal">
+            <div class="text-[#C6754D] text-2xl font-[Montaga] font-normal">
                 <p>Please join us to celebrate</p>
             </div>
-            <div class="text-gray-700 text-8xl font-[Montaga] font-thin">
+            <div class="text-[#2B1105] text-8xl font-[Montaga] font-thin">
                 <h1>Caleb & Amaya</h1>
             </div>
-            <div class="text-orange-500 text-2xl font-[Montaga] font-normal">
+            <div class="text-[#C6754D] text-2xl font-[Montaga] font-normal">
                 <p>July 15, 2022 Boise, Idaho</p>
             </div>
         </div>
@@ -49,7 +49,7 @@
         <div class="flex justify-center mt-6">
             <img src="./Assets/images/Couple.svg" alt="">
         </div>
-        <div class="bg-orange-400 flex mt-18 items-center p-32">
+        <div class="bg-[#C6754D] flex mt-18 items-center p-32">
             <div class="flex-2 text-white text-8xl font-normal">
                 <h1>Our <br> Story</h1>
             </div>
@@ -81,13 +81,13 @@
     <section class="p-8">
         <div class="flex justify-between p-16">
             <div class="flex flex-col content-center gap-8">
-                <div class="text-orange-500 text-sm font-[Montaga] font-normal">
+                <div class="text-[#C6754D] text-sm font-[Montaga] font-normal">
                     <p>The Venue</p>
                 </div>
-                <div class="text-gray-900 text-6xl font-[Montaga] font-normal">
+                <div class="text-[#2B1105] text-6xl font-[Montaga] font-normal">
                     <h1>Gino Winery Estate</h1>
                 </div>
-                <div class="text-gray-400 text-lg font-[Montaga] font-normal">
+                <div class="text-[#2B1105] text-lg font-[Montaga] font-normal">
                     <p>Feugiat pretium egestas enim blandit purus euismod. Feugiat magna <br> aliquam lectus lectus eu
                         amet.
                         Eros, accumsan purus enim nascetur <br> quam diam felis, fringilla varius. <br>
@@ -118,7 +118,7 @@
                 </div>
                 <div>
                     <button
-                        class="border-solid border w-32 h-16 border-red-300 font-[Montaga] font-normal text-red-300">Button</button>
+                        class="border-solid border w-32 h-16 border-[#C6754D] font-[Montaga] font-normal text-[#C6754D]">Button</button>
                 </div>
             </div>
             <div class="flex flex-col gap-8">
@@ -131,7 +131,7 @@
                 </div>
                 <div>
                     <button
-                        class="border-solid border w-32 h-16 border-red-300 font-[Montaga] font-normal text-red-300">Button</button>
+                        class="border-solid border w-32 h-16 border-[#C6754D] font-[Montaga] font-normal text-[#C6754D]">Button</button>
                 </div>
             </div>
             <div class="flex flex-col gap-8">
@@ -144,7 +144,7 @@
                 </div>
                 <div>
                     <button
-                        class="border-solid border w-32 h-16 border-red-300 font-[Montaga] font-normal text-red-300">Button</button>
+                        class="border-solid border w-32 h-16 border-[#C6754D] font-[Montaga] font-normal text-[#C6754D]">Button</button>
                 </div>
             </div>
         </div>
@@ -191,7 +191,7 @@
                 </div>
             </div>
             <div class="flex gap-[4rem] mt-12">
-                <p>Friday, July 11</p>
+                <p class="underline">Friday, July 11</p>
                 <p>Saturday, July 12</p>
                 <p>Sunday, July 13</p>
             </div>
@@ -277,28 +277,32 @@
                 <div>
                     <label class="flex" for="nog">Number of Guests <p class="text-[#C6754D]">*</p> </label>
                     <div class="flex border-solid border-[1px] w-[138px] h-[52px]">
-                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="radio" id="nog" name="nog">
+                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="radio" id="nog"
+                            name="nog">
                         <label class="mt-[1rem] ml-[.5rem]" for="one">One</label>
                     </div>
                 </div>
                 <div class="mt-[1.5rem]">
                     <label for="nog"></label>
                     <div class="flex border-solid border-[1px] w-[138px] h-[52px]">
-                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="radio" id="nog" name="nog">
+                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="radio" id="nog"
+                            name="nog">
                         <label class="mt-[1rem] ml-[.5rem]" for="one">Two</label>
                     </div>
                 </div>
                 <div class="mt-[1.5rem]">
                     <label for="nog"></label>
                     <div class="flex border-solid border-[1px] w-[138px] h-[52px]">
-                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="radio" id="nog" name="nog">
+                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="radio" id="nog"
+                            name="nog">
                         <label class="mt-[1rem] ml-[.5rem]" for="one">Three</label>
                     </div>
                 </div>
                 <div class="mt-[1.5rem]">
                     <label for="nog"></label>
                     <div class="flex border-solid border-[1px] w-[138px] h-[52px]">
-                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="radio" id="nog" name="nog">
+                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="radio" id="nog"
+                            name="nog">
                         <label class="mt-[1rem] ml-[.5rem]" for="one">Four</label>
                     </div>
                 </div>
@@ -306,16 +310,18 @@
 
             <form class="flex flex-row justify-center gap-[2rem]" action="">
                 <div>
-                    <label class="flex" for="nog">Number of Guests <p class="text-[#C6754D]">*</p> </label>
+                    <label class="flex" for="nog">Attendance <p class="text-[#C6754D]">*</p> </label>
                     <div class="flex border-solid border-[1px] w-[284px] h-[52px]">
-                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="checkbox" id="nog" name="nog">
+                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="checkbox" id="nog"
+                            name="nog">
                         <label class="mt-[1rem] ml-[.5rem]" for="one">Accept with pleasure</label>
                     </div>
                 </div>
                 <div class="mt-[1.5rem]">
                     <label for="nog"></label>
                     <div class="flex border-solid border-[1px] w-[284px] h-[52px]">
-                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="checkbox" id="nog" name="nog">
+                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="checkbox" id="nog"
+                            name="nog">
                         <label class="mt-[1rem] ml-[.5rem]" for="one">Regretfully Decline</label>
                     </div>
                 </div>
@@ -325,21 +331,24 @@
                 <div>
                     <label class="flex" for="nog"></label>
                     <div class="flex border-solid border-[1px] w-[179px] h-[52px]">
-                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="checkbox" id="nog" name="nog">
+                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="checkbox" id="nog"
+                            name="nog">
                         <label class="mt-[1rem] ml-[.5rem]" for="one">Rehearsal Dinner</label>
                     </div>
                 </div>
                 <div>
                     <label class="flex" for="nog"></label>
                     <div class="flex border-solid border-[1px] w-[179px] h-[52px]">
-                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="checkbox" id="nog" name="nog">
+                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="checkbox" id="nog"
+                            name="nog">
                         <label class="mt-[1rem] ml-[.5rem]" for="one">Ceremony</label>
                     </div>
                 </div>
                 <div>
                     <label class="flex" for="nog"></label>
                     <div class="flex border-solid border-[1px] w-[179px] h-[52px]">
-                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="checkbox" id="nog" name="nog">
+                        <input class="border-solid border-[1px] w-[16px] h-[52px] ml-[.5rem]" type="checkbox" id="nog"
+                            name="nog">
                         <label class="mt-[1rem] ml-[.5rem]" for="one">Reception</label>
                     </div>
                 </div>
@@ -347,7 +356,16 @@
         </div>
     </section>
 
-    
+    <footer class="p-32">
+        <ol class="flex flex-row items-center justify-evenly text-[22px] font-thin">
+            <li><a href="">Home</a></li>
+            <li><a href="">Our Story</a></li>
+            <li><a href="">Venue</a></li>
+            <li><a href="">Itinierary</a></li>
+            <li><a href="">Registry</a></li>
+            <li><a href="">RSVP</a></li>
+        </ol>
+    </footer>
 </body>
 
 </html>
